@@ -2,3 +2,13 @@
 https://www.zhihu.com/question/21834316/answer/25944024
 2. SDNLAB
 http://www.sdnlab.com/book/
+3.SDN 网络系统之 Mininet 与 API 详解
+https://www.ibm.com/developerworks/cn/cloud/library/1404_luojun_sdnmininet/
+4.Mininet使用源码安装
+http://www.sdnlab.com/15138.html
+5.Mininet系列实验
+http://www.sdnlab.com/course/233/
+6.Floodlight&mininet SDNlab配置
+http://blog.sina.com.cn/s/blog_5656bf3e0102xofx.html
+7.mininet
+http://mininet.org/
