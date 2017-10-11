@@ -1,0 +1,34 @@
+//  mininet command
+
+1.  start mininet
+        ------------
+        sudo mn
+        ------------
+      find more commands
+        ------------
+        sudo mn -h
+        ------------
+2.  commands
+      help
+        ------------
+        help
+        help <topic_in_help>
+        ------------
+      other
+        ------------
+        nodes:
+        net:
+        dump:
+        ...
+        ------------
+      exit
+        ------------
+        exit/quit
+        ------------
+3.  graphic interface 
+      location: mininet/examples
+        ------------
+        python miniedit.py
+        ------------
+
+

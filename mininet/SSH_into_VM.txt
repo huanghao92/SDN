@@ -1,0 +1,28 @@
+//SSH into VM tutorial
+
+when boot virtualbox, config network
+if ssh to vm is needed. add an "host-only network adapter",
+  Otherwise select NAT
+
+
+1.  Find VM ip
+----------------------------------
+        --------------
+        ifconfig eth0
+        --------------
+		  Note: VirtualBox users who have set up a host-only network on eth1 should use
+        --------------
+			  sudo dhclient eth1   # make sure that eth1 has an IP address
+			  ifconfig eth1
+        --------------
+2.  SSH to VM
+----------------------------------
+      set ip to mininet-vm in /etc/hosts file on host
+        --------------
+        192.168.56.101  mininet-vm
+        --------------
+      use ssh -Y
+        --------------
+        ssh -Y mininet@mininet-vm
+
+done
